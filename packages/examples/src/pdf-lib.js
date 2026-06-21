@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require('path');
-var PDFDocument = require('pdf-lib').PDFDocument;
+var PDFDocument = require('@cantoo/pdf-lib').PDFDocument;
 var pdflibAddPlaceholder = require('@signpdf/placeholder-pdf-lib').pdflibAddPlaceholder;
 var signpdf = require('@signpdf/signpdf').default;
 var P12Signer = require('@signpdf/signer-p12').P12Signer;

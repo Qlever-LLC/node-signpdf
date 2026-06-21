@@ -5,13 +5,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.pdflibAddPlaceholder = void 0;
 var _utils = require("@signpdf/utils");
-var _pdfLib = require("pdf-lib");
+var _pdfLib = require("@cantoo/pdf-lib");
 /**
- * @typedef {import('pdf-lib').PDFDocument} PDFDocument
+ * @typedef {import('@cantoo/pdf-lib').PDFDocument} PDFDocument
  */
 
 /**
- * @typedef {import('pdf-lib').PDFPage} PDFPage
+ * @typedef {import('@cantoo/pdf-lib').PDFPage} PDFPage
  */
 
 /**

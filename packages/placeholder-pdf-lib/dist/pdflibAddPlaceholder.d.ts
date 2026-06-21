@@ -1,6 +1,6 @@
 export function pdflibAddPlaceholder({ pdfDoc, pdfPage, reason, contactInfo, name, location, signingTime, signatureLength, byteRangePlaceholder, subFilter, widgetRect, appName, }: InputType): void;
-export type PDFDocument = import('pdf-lib').PDFDocument;
-export type PDFPage = import('pdf-lib').PDFPage;
+export type PDFDocument = import('@cantoo/pdf-lib').PDFDocument;
+export type PDFPage = import('@cantoo/pdf-lib').PDFPage;
 export type CommonInputType = {
     pdfDoc?: PDFDocument;
     pdfPage?: PDFPage;

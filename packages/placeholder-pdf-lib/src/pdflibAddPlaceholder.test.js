@@ -1,6 +1,6 @@
 import {
     PDFArray, PDFDict, PDFDocument, PDFName, PDFObjectParser, PDFStream, PDFString,
-} from 'pdf-lib';
+} from '@cantoo/pdf-lib';
 import {readTestResource} from '@signpdf/internal-utils';
 import {DEFAULT_BYTE_RANGE_PLACEHOLDER, SUBFILTER_ETSI_CADES_DETACHED, SignPdfError} from '@signpdf/utils';
 import {pdflibAddPlaceholder} from './pdflibAddPlaceholder';

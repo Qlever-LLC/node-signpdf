@@ -8,14 +8,14 @@ import {
 } from '@signpdf/utils';
 import {
     PDFArray, PDFDict, PDFHexString, PDFName, PDFNumber, PDFInvalidObject, PDFString,
-} from 'pdf-lib';
+} from '@cantoo/pdf-lib';
 
 /**
- * @typedef {import('pdf-lib').PDFDocument} PDFDocument
+ * @typedef {import('@cantoo/pdf-lib').PDFDocument} PDFDocument
  */
 
 /**
- * @typedef {import('pdf-lib').PDFPage} PDFPage
+ * @typedef {import('@cantoo/pdf-lib').PDFPage} PDFPage
  */
 
 /**

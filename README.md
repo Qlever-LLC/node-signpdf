@@ -54,7 +54,7 @@ Start with `$ npm i -S @signpdf/signpdf @signpdf/placeholder-plain @signpdf/sign
 
 #### PDF-LIB
 
-`$ npm i -S @signpdf/signpdf @signpdf/placeholder-pdf-lib pdf-lib @signpdf/signer-p12 node-forge` gets you started. Then comes the [the PDF-LIB example](/packages/examples/src/pdf-lib.js). PDF-LIB provides tremendous PDF API, it is very well documented and well supported.
+`$ npm i -S @signpdf/signpdf @signpdf/placeholder-pdf-lib @cantoo/pdf-lib @signpdf/signer-p12 node-forge` gets you started. Then comes the [the PDF-LIB example](/packages/examples/src/pdf-lib.js). PDF-LIB provides tremendous PDF API, it is very well documented and well supported.
   
 ## Packages
 
