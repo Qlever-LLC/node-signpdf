@@ -2,13 +2,13 @@
 
 for [![@signpdf](https://raw.githubusercontent.com/vbuch/node-signpdf/master/resources/logo-horizontal.svg?sanitize=true)](https://github.com/vbuch/node-signpdf/)
 
-[![npm version](https://badge.fury.io/js/@signpdf%2Fplaceholder-pdf-lib.svg)](https://badge.fury.io/js/@signpdf%2Fplaceholder-pdf-lib)
+[![npm version](https://badge.fury.io/js/@qlever-llc%2Fplaceholder-pdf-lib.svg)](https://badge.fury.io/js/@qlever-llc%2Fplaceholder-pdf-lib)
 
 Works with `PDF-LIB` and given a PDFDocument that is in the works, adds an e-signature placeholder. When the PDF is ready you can convert it to Buffer and pass it to `@signpdf/signpdf` to complete the process.
 
 ## Usage
 
-You will need `$ npm i -S @signpdf/placeholder-pdf-lib @cantoo/pdf-lib @signpdf/signpdf node-forge` and a look at the [pdf-lib.js example](/packages/examples/src/pdf-lib.js).
+You will need `$ npm i -S @qlever-llc/placeholder-pdf-lib @cantoo/pdf-lib @signpdf/signpdf node-forge` and a look at the [pdf-lib.js example](/packages/examples/src/pdf-lib.js).
 
 ## Notes
 
@@ -26,7 +26,7 @@ To produce PAdES compliant signatures, the ETSI Signature Dictionary SubFilter v
 This can be declared using the subFilter option argument.
 
 ```js
-import { pdflibAddPlaceholder } from '@signpdf/placeholder-pdf-lib';
+import { pdflibAddPlaceholder } from '@qlever-llc/placeholder-pdf-lib';
 import { SUBFILTER_ETSI_CADES_DETACHED } from '@signpdf/utils';
 
 pdflibAddPlaceholder({
